@@ -1,0 +1,18 @@
+-var v=[{img:'../img/doctor.png', content:'3500+ Specialists Doctor'}, {img:'../img/calender.png', content:'12 Lakhs+ Appointment Request'}, {img:'../img/Document.png', content:'9 Lakh+ Doctor Appointment booked'}];
+<div class="processLine">
+        <div class="firstOne">
+            <img src="../img/about.webp" alt="" srcset="">
+        </div>
+        <div class="secondOne">
+            <h1>About Doctor G</h1>
+            <p>Doctor G is online portal for all your healthcare needs.our team of medical experts are there for
+                you in every step of the way,from finding the right doctor and hospital to booking appointments, from
+                 providing verified information to any kind of medical assistance in between
+            </p>
+            div(class="fitIn")
+                each val in v 
+                    div(class="special")
+                        img(src=val.img)
+                        span()=val.content
+        </div>
+</div>

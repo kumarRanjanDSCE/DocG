@@ -1,0 +1,26 @@
+<form class="login" id="login">
+    <p class="close-bttn" onclick="closing()">&#9938;</p>
+    <div class="user">
+        <div id="patient" onclick="flip1()">Patient</div>
+        <div id="doctor" onclick="flip2()">Doctor</div>
+    </div>
+    <h1 id="header-login">LOGIN</h1>
+    <div class="login-error"></div>
+    <div class="input-group-container">
+        <b>Username</b>
+        <input type="text" class="input-group" autocomplete="off" id="userNamel" placeholder=" Enter User Name" />
+        <div class="error-input-userName"></div>
+    </div>
+    <div class="input-group-container">
+        <b>Password</b>
+        <input type="password" class="input-group" id="passwordl" autocomplete="off" name="password" placeholder=" Password">
+        <div class="error-input-password"></div>
+        <p class="forget">Forget Password? <a href="#"> click here</a></p>
+    </div>
+    <input type="checkbox" name="remember" id="remember">
+    <label for="remember" id="remember_me">Remember me
+    </label>
+    <div class="sub"><button type="submit" class="but">Login</button></div>
+    <p class="signup" onclick="Hide()">Create an account? <a href="#"> Sign Up</a></p>
+    <div class="google-login"></div>
+</form>
